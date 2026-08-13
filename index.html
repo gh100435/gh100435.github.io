@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,122 +10,233 @@
     <script src="js/uikit.js"></script>
     <script src="js/uikit-icons.js"></script>
 
-    <title>Portfolio</title>
+    <title>kunhee.dev</title>
 </head>
+
 <body>
-<!-- Navigation Bar -->
-    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-    
-    <div class="uk-navbar-left">
-        <a href="" class="uk-navbar-item uk-logo uk-light">JohnDoe.</a>
-    </div>
-    <div class="uk-navbar-right">
-
-        <ul class="uk-navbar-nav uk-light">
-            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="mailto:" uk-scroll>Contact</a></li>
-
-        </ul>
-
-    </div>
-</nav>
-<!-- Navigation Bar Ends  -->
-
-<!-- Navigation Bar Mobile -->
-<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-    
-    <div class="uk-navbar-left">
-        <a href="" class="uk-navbar-item uk-logo uk-light">JohnDoe.</a>
-    </div>
-    <div class="uk-navbar-right">
-
-        <ul class="uk-navbar-nav uk-light">
-            <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
-
-        </ul>
-
-    </div>
-</nav>
-<!-- Change This -->
-<div id="offcanvas-nav" uk-offcanvas="overlay: true">
-    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
-
-        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
-            <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
-            <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
-            <li class="uk-active"><a href="mailto:">Contact</a></li> <!--- change to ur email-->
-
-        </ul>
-
-
-
-
-    </div>
-</div>
-
-<!-- Navigation Bar Mobile Ends -->
-<!-- Home -->
-<section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm John Doe, a front-end web developer, <br>graphic designer, and an UI/UX designer.</h1>
-    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
-
-
-</section>
-
-<!-- Home Ends -->
-<br>
-
-
-<hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
-
-<!-- About Me -->
-<section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
-<!-- Change here to ur paragraph -->
-<p class="uk-margin-xlarge-left uk-margin-xlarge-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend posuere tortor vel lobortis. Morbi pretium in sapien non suscipit. Nam ac efficitur enim. Vestibulum accumsan erat sit amet nulla commodo, nec varius felis aliquam. Aliquam suscipit mauris lacus, at euismod purus tempor aliquam. Donec varius sem nisl. Fusce augue tortor, hendrerit at elit quis, aliquet blandit eros. Nam gravida sem velit, eu placerat nunc commodo ut. <br><br>Maecenas ultricies magna nec nisi egestas, in posuere velit tincidunt. Nam quis turpis non ligula dapibus bibendum sit amet at felis. Vestibulum ornare tempor nulla, quis sodales ex consequat vel. Morbi sollicitudin ligula eget mattis euismod. Nulla scelerisque malesuada arcu a vulputate. Phasellus ac lectus consequat, eleifend libero id, tincidunt lectus. Sed tempus gravida odio, sed semper neque aliquet imperdiet.</p>
-<a href="" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="instagram"></a> &nbsp;<a href="" class="uk-light uk-button-text" uk-icon="dribbble"></a> &nbsp;<a href="" class="uk-button-text uk-light" uk-icon="github"></a> &nbsp;<a href="" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
-
-<!-- About Me Ends -->
-
-
-
-
-</section>
-
-<!-- Projects Section -->
-<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
-<section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
-<p class="uk-margin-xlarge-left">Projects that i've been working on</p>
-
-<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
-    <!-- Change all of this to ur projects -->
-    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-        <h4>Project Name</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a class="uk-button-text uk-text-decoration-none" href="">
-            <span uk-icon="icon: link">
-            </span> Website Link </a>
+    <!-- Navigation Bar -->
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right"
+        uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+        <div class="uk-navbar-left">
+            <a href="" class="uk-navbar-item uk-logo uk-light">kunhee.dev</a>
         </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>Project Name</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a class="uk-button-text uk-text-decoration-none" href="">
-                <span uk-icon="icon: link">
-                </span> Website Link </a>
-            </div></div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-light">
+                <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About Me</a></li>
+                <li><a class="uk-button-text uk-text-capitalize" href="#demo" uk-scroll>Demo</a></li>
+                <li><a class="uk-button-text uk-text-capitalize" href="#lagacy" uk-scroll>Lagacy</a></li>
+                 <!--<li><a class="uk-button-text uk-text-capitalize" href="mailto:" uk-scroll>Contact</a></li>-->
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation Bar Ends  -->
 
+    <!-- Navigation Bar Mobile -->
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right"
+        uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+        <div class="uk-navbar-left">
+            <a href="" class="uk-navbar-item uk-logo uk-light">kunhee.dev</a>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-light">
+                <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Change This -->
+    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
+                <li class="uk-active"><a href="#about" uk-scroll>About Me</a></li>
+                <li class="uk-active"><a href="#demo" uk-scroll>Demo</a></li>
+                <li class="uk-active"><a href="#lagacy" uk-scroll>Lagacy</a></li>
+                <!--<li class="uk-active"><a href="mailto:">Contact</a></li>-->
+            </ul>
+        </div>
+    </div>
+    <!-- Navigation Bar Mobile Ends -->
 
-
-    <br>
-
-
-</section>
-<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
-</div>
-<!-- Projects Section Ends -->
+    <!-- Home -->
+    <section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+        <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">SW 엔지니어<br>진건희 포트폴리오.</h1>
+        <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>소개</a>
+    </section>
+    <!-- Home Ends -->
     
+    <br>
+    <hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
+    
+    <!-- About Me -->
+    <section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+        <h3 class="uk-margin-xlarge-left uk-light">소개</h3>
+        <!-- Change here to ur paragraph -->
+        <p class="uk-margin-xlarge-left uk-margin-xlarge-right">
+            서울로봇고등학교 로봇소프트웨어과와
+            명지전문대학 AI·빅데이터학과에서 공부했습니다.<br><br>
+        
+            Web, AI, IoT, 크롤링, DB, Linux 등 다양하게 다뤄보았습니다.
+            React·TypeScript, Java·Spring, Python·AI, Linux·Node.js·WebRTC 등을 프로젝트에서 사용했습니다.<br><br>
+        
+            심플하게 동작하는 사실을 만들고자 노력하고 있습니다.<br><br>
+        
+            소프트웨어를 넘어 기계·전자·공학까지 이해하고
+            함께 구현할 수 있는 엔지니어를 목표로 하고 있습니다.<br><br>
+
+            AI가 명세에 맞추어 바이브코딩을 대강 해주고.
+            지식을 가진 인간의 디테일과 한끝이 중요한데.
+            저는 마지막 한끝을 할 줄 아는 사람입니다.<br><br>
+
+            데모 프로젝트를 보충해나갈 예정입니다.<br><br>
+        </p>
+        <br>
+        <a href="" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="instagram"></a> &nbsp;
+        <!--<a href="" class="uk-light uk-button-text" uk-icon="dribbble"></a> &nbsp;-->
+        <a href="" class="uk-button-text uk-light" uk-icon="github"></a> &nbsp;
+        <a href="" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
+    </section>
+    <!-- About Me Ends -->
+
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+
+    <!-- Demo Projects Section -->
+    <section id="demo" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+        <h3 class="uk-margin-xlarge-left uk-light">데모 프로젝트</h3>
+        <p class="uk-margin-xlarge-left">프로젝트 구현 데모입니다.</p>
+        <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+            <!-- Change all of this to ur projects -
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>Project Name</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <a class="uk-button-text uk-text-decoration-none" href="">
+                    <span uk-icon="icon: link">
+                    </span> Website Link </a>
+            </div>
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>Project Name</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <a class="uk-button-text uk-text-decoration-none" href="">
+                    <span uk-icon="icon: link">
+                    </span> Website Link </a>
+            </div>
+        -->
+        </div>
+        <br>
+    </section>
+    <!-- Demo Projects Section Ends -->
+
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+
+    <!-- Legacy Projects Section -->
+    <section id="legacy"
+        class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+
+        <h3 class="uk-margin-xlarge-left uk-light">레거시 프로젝트</h3>
+        <p class="uk-margin-xlarge-left">과거 프로젝트 입니다.</p>
+
+        <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+
+            <!-- 무인이 -->
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+                <h4>무인판매점 자동관리 ERP '무인이' (2025)</h4>
+                <p>
+                    여러 무인판매점의 재고와 운영 현황을 통합 관리하고,
+                    재고 부족 시 자동 발주할 수 있도록 개발한 ERP 프로젝트입니다.
+                    시스템 개발에 참여했으며 프로젝트 결과를 논문으로 발전시켜 우수논문상을 수상했습니다.
+                </p>
+                <p>
+                    <strong>Keywords</strong> ERP · Web · Database · Automation
+                </p>
+            </div>
+
+            <!-- 명전이 -->
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+                <h4>학사전용 AI 챗봇 '명전이' (2024)</h4>
+                <p>
+                    대학 학사정보에 특화된 AI 챗봇입니다.
+                    LLM 파인튜닝과 React 기반 Front-End 개발을 수행했으며,
+                    실제 명지전문대학 웹사이트에 적용했습니다.
+                </p>
+                <p>
+                    <strong>Keywords</strong> React · JavaScript · LLM · Fine-Tuning · AI
+                </p>
+            </div>
+
+            <!-- 여론분석 -->
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+                <h4>결혼에 대한 온라인 커뮤니티 여론분석 (2024)</h4>
+                <p>
+                    2020년 이후 온라인 커뮤니티의 게시글과 댓글 데이터를 수집하여
+                    결혼에 대한 감정을 분석하고 실제 혼인율과의 상관관계를 분석한 데이터 분석 프로젝트입니다.
+                    웹 데이터 수집부터 전처리, 감정분석 및 결과 분석을 수행했습니다.
+                </p>
+                <p>
+                    <strong>Keywords</strong> Python · Selenium · Web Crawling · NLP · Data Analysis
+                </p>
+            </div>
+
+            <!-- 야타 -->
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+                <h4>직장인을 위한 카풀 애플리케이션 '야타' (2024)</h4>
+                <p>
+                    같은 직장 구성원들이 출퇴근 시 카풀을 이용할 수 있도록 개발한 애플리케이션입니다.
+                    Front-End와 Back-End 개발에 참여하여 서비스 기능을 구현했으며,
+                    프로젝트 결과를 논문으로 발전시켜 우수논문상을 수상했습니다.
+                </p>
+                <p>
+                    <strong>Keywords</strong> React · Front-End · Back-End · Web Application
+                </p>
+            </div>
+
+            <!-- AR 광선검 -->
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+                <h4>AR 광선검 체험 시스템 (2019)</h4>
+                <p>
+                    AR 환경에서 직접 광선검을 들고 체험할 수 있도록 제작한 인터랙티브 시스템입니다.
+                    3D 모델링과 기계설계를 담당하고 Unity와 연계하여 실제 체험 가능한 결과물을 제작했습니다.
+                    서울로봇고등학교 졸업작품전시회에 출품하여 동상을 수상했습니다.
+                </p>
+                <p>
+                    <strong>Keywords</strong> Unity · AR · 3D Modeling · Inventor · 3D Printing
+                </p>
+            </div>
+
+            <!-- AI 홀로그램 챗봇 -->
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+                <h4>AI 홀로그램 챗봇 (2019)</h4>
+                <p>
+                    사용자와 대화할 수 있는 AI 챗봇을 홀로그램 형태로 표현한 프로젝트입니다.
+                    한국어 코퍼스를 활용한 Word2Vec 학습,
+                    LSTM 기반 답변 생성 모델과 Softmax 기반 의도 분류 모델을 구현했으며
+                    홀로그램 캐릭터를 위한 3D 모델링도 수행했습니다.
+                </p>
+                <p>
+                    <strong>Keywords</strong> Python · Word2Vec · LSTM · NLP · 3D Modeling
+                </p>
+            </div>
+
+            <!-- 모션 인식 드론 -->
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+                <h4>모션 인식 드론 (2018)</h4>
+                <p>
+                    사용자의 동작을 인식하여 드론을 제어하는 것을 목표로 제작한 프로젝트입니다.
+                    Raspberry Pi를 기반으로 C와 Python을 활용했으며,
+                    RF 통신과 PID 제어 등 드론 제어에 필요한 기술을 직접 학습하고 적용했습니다.
+                </p>
+                <p>
+                    <strong>Keywords</strong> C · Python · Raspberry Pi · RF · PID Control
+                </p>
+            </div>
+
+        </div>
+        <br>
+    </section>
+    <!-- Legacy Projects Section Ends -->
+
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    </div>
 </body>
+
 </html>
