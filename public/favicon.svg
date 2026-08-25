@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Minimal geometric K -->
+  <path d="M18 8H30V27L45 8H59L40 31L60 56H45L30 37V56H18Z"
+        fill="#29292E"/>
+
+  <!-- Code accents -->
+  <path d="M12 25L5 32L12 39"
+        fill="none" stroke="#FF3344" stroke-width="4"
+        stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M54 25L61 32L54 39"
+        fill="none" stroke="#FF3344" stroke-width="4"
+        stroke-linecap="square" stroke-linejoin="miter"/>
+</svg>
