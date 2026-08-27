@@ -1,4 +1,16 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
 :root {
+  --oc-bg: 250 250 250;
+  --oc-surface: 255 255 255;
+  --oc-header: 255 255 255;
+  --oc-text: 20 20 22;
+  --oc-muted: 91 91 100;
+  --oc-coral: 245 101 74;
+  --oc-border: 20 20 22;
+  --oc-interactive: 245 101 74;
+
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -17,7 +29,7 @@
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
-  color-scheme: light dark;
+  color-scheme: light;
   color: var(--text);
   background: var(--bg);
   font-synthesis: none;
@@ -30,8 +42,41 @@
   }
 }
 
+:root[data-theme='dark'] {
+  --oc-bg: 16 16 18;
+  --oc-surface: 23 23 25;
+  --oc-header: 8 8 8;
+  --oc-text: 237 237 237;
+  --oc-muted: 154 154 162;
+  --oc-coral: 245 101 74;
+  --oc-border: 154 154 162;
+  --oc-interactive: 245 101 74;
+
+  --text: #9ca3af;
+  --text-h: #f3f4f6;
+  --bg: #16171d;
+  --border: #2e303a;
+  --code-bg: #1f2028;
+  --accent: #c084fc;
+  --accent-bg: rgba(192, 132, 252, 0.15);
+  --accent-border: rgba(192, 132, 252, 0.5);
+  --social-bg: rgba(47, 48, 58, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+  color-scheme: dark;
+}
+
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme]) {
+    --oc-bg: 16 16 18;
+    --oc-surface: 23 23 25;
+    --oc-header: 8 8 8;
+    --oc-text: 237 237 237;
+    --oc-muted: 154 154 162;
+    --oc-coral: 245 101 74;
+    --oc-border: 154 154 162;
+    --oc-interactive: 245 101 74;
+
     --text: #9ca3af;
     --text-h: #f3f4f6;
     --bg: #16171d;
@@ -43,6 +88,7 @@
     --social-bg: rgba(47, 48, 58, 0.5);
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+    color-scheme: dark;
   }
 
   #social .button-icon {
@@ -51,7 +97,7 @@
 }
 
 #root {
-  width: 1126px;
+  /*width: 1126px;*/
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
